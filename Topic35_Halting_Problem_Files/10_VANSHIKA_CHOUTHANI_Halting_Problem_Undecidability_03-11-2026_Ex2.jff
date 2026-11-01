@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+  <type>turing</type>
+  <automaton>
+    <state id="0" name="q_start">
+      <x>100</x>
+      <y>250</y>
+      <initial/>
+    </state>
+    <state id="1" name="q_read">
+      <x>250</x>
+      <y>250</y>
+    </state>
+    <state id="2" name="q_halt">
+      <x>400</x>
+      <y>250</y>
+      <final/>
+    </state>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>a</read>
+      <write>a</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>2</to>
+      <read/>
+      <write/>
+      <move>S</move>
+    </transition>
+    <note>
+      <text>Q2: Universal Turing Machine Simulation Step</text>
+      <x>50.0</x>
+      <y>50.0</y>
+    </note>
+    <note>
+      <text>Designed by: Tanmay Purushottam Bokade (Roll No: 9)</text>
+      <x>50.0</x>       <y>100.0</y>
+    </note>
+  </automaton>
+</structure>

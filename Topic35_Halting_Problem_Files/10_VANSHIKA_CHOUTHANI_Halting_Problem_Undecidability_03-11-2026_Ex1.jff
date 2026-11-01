@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+  <type>turing</type>
+  <automaton>
+    <state id="0" name="q0">
+      <x>150</x>
+      <y>250</y>
+      <initial/>
+    </state>
+    <state id="1" name="accept">
+      <x>350</x>
+      <y>150</y>
+      <final/>
+    </state>
+    <state id="2" name="reject">
+      <x>350</x>
+      <y>350</y>
+    </state>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>1</read>
+      <write>1</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>2</to>
+      <read>0</read>
+      <write>0</write>
+      <move>R</move>
+    </transition>
+    <note>
+      <text>Q1: Halting Problem Decider Stub (Accepts 1, Rejects 0)</text>
+      <x>50.0</x>
+      <y>50.0</y>
+    </note>
+    <note>
+      <text>Designed by: Tanmay Purushottam Bokade (Roll No: 9)</text>
+      <x>50.0</x>       <y>100.0</y>
+    </note>
+  </automaton>
+</structure>

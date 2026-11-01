@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+  <type>lsystem</type>
+  <!--The L-system axiom.-->
+  <axiom>FX</axiom>
+  <!--The rewriting rules.-->
+  <rule>
+    <left>X</left>
+    <right>X+YF+</right>
+  </rule>
+  <rule>
+    <left>Y</left>
+    <right>-FX-Y</right>
+  </rule>
+  <!--The rewriting parameters.-->
+  <parameter>
+    <name>angle</name>
+    <value>90</value>
+  </parameter>
+  <parameter>
+    <name>distance</name>
+    <value>10</value>
+  </parameter>
+</structure>
